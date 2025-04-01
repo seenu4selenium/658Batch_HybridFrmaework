@@ -328,12 +328,12 @@ public class Commonfunctions {
 
 	}
 
-	public void verifyWebElement(By locator) {
+	public void verifyWebElement(By tC3_Home) {
 		//Validate the given Locator has displayed or not on current Page?
-		if (driver.findElements(locator).size() > 0) {
-			System.out.println(locator + " is displayed on screen ");
+		if (driver.findElements(tC3_Home).size() > 0) {
+			System.out.println(tC3_Home + " is displayed on screen ");
 		} else {
-			System.out.println(locator + " is not displayed on screen,please check the locator ");
+			System.out.println(tC3_Home + " is not displayed on screen,please check the locator ");
 		}
 
 	}

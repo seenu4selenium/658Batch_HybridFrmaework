@@ -20,4 +20,16 @@ public class QA_Locators {
 	public final By atd_nameOption_dropdown = By.xpath("//*[@id='property-table']/div[2]/div[4]/div/select");
 	
 	public final By dob_dropdown = By.xpath("//*[@id='basicBootstrapForm']/div[11]/div[2]/select");
+	
+	//TestCase3_LoginUserWithIncorrectEmailAndPassword locators
+	 public final By TC3_Home=By.linkText(" Home");
+	 public final By TC3_SignUp = By.xpath(" //*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[4]/a");
+	 public final By TC3_LoginToYourAccount= By.xpath("//*[@id=\"form\"]/div/div/div[1]/div[1]/h2");
+	 public final By TC3_WrongEmail= By.name("email");
+	 public final By TC3_WrongPassword= By.name("password");
+	 public final By TC3_LoginButton = By.xpath("//*[@id=\"form\"]/div/div/div[1]/div[1]/form/button");
+	 public final By TC3_VerifyEmailMessage=By.xpath("//*[@id=\"form\"]/div/div/div[1]/div[1]/form/p");
+	 public final By TC3_ErrorMessage = By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/p");
+	 
 }
+
