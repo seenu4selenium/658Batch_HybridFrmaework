@@ -20,4 +20,11 @@ public class QA_Locators {
 	public final By atd_nameOption_dropdown = By.xpath("//*[@id='property-table']/div[2]/div[4]/div/select");
 	
 	public final By dob_dropdown = By.xpath("//*[@id='basicBootstrapForm']/div[11]/div[2]/select");
+	
+	// auto exercise
+	public final By homepage_element_button=By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[1]/a");
+	public final By signup_button=By.xpath("//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[4]/a");
+	public final By signup_button_for_verification=By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/button");
+	public final By Name_field=By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[2]");
+	public final By Username_field=By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]");
 }

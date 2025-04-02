@@ -2,28 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-29T06:18:02 MDT" name="Default suite" finished-at="2025-03-29T06:18:07 MDT" duration-ms="5273">
+  <suite started-at="2025-04-02T02:28:29 GMT-04:00" name="Default suite" finished-at="2025-04-02T02:28:40 GMT-04:00" duration-ms="11689">
     <groups>
     </groups>
-    <test started-at="2025-03-29T06:18:02 MDT" name="Default test" finished-at="2025-03-29T06:18:07 MDT" duration-ms="5273">
-      <class name="com.testscenarios.AutoTestDataGenreate">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.AutoTestDataGenreate@ed7f8b4]" started-at="2025-03-29T06:18:02 MDT" name="beforeClass" finished-at="2025-03-29T06:18:07 MDT" duration-ms="4623" status="PASS">
+    <test started-at="2025-04-02T02:28:29 GMT-04:00" name="Default test" finished-at="2025-04-02T02:28:40 GMT-04:00" duration-ms="11689">
+      <class name="com.testscenarios.TestCase1_Register_user">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.TestCase1_Register_user@c86b9e3]" started-at="2025-04-02T02:28:29 GMT-04:00" name="beforeClass" finished-at="2025-04-02T02:28:37 GMT-04:00" duration-ms="8304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.testscenarios.AutoTestDataGenreate@ed7f8b4]" started-at="2025-03-29T06:18:07 MDT" name="f" finished-at="2025-03-29T06:18:07 MDT" duration-ms="30" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.TestCase1_Register_user@c86b9e3]" started-at="2025-04-02T02:28:37 GMT-04:00" name="f" finished-at="2025-04-02T02:28:40 GMT-04:00" duration-ms="2750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testscenarios.AutoTestDataGenreate@ed7f8b4]" started-at="2025-03-29T06:18:07 MDT" name="afterMethod" finished-at="2025-03-29T06:18:07 MDT" duration-ms="354" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testscenarios.AutoTestDataGenreate@ed7f8b4]" started-at="2025-03-29T06:18:07 MDT" name="afterClass" finished-at="2025-03-29T06:18:07 MDT" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testscenarios.TestCase1_Register_user@c86b9e3]" started-at="2025-04-02T02:28:40 GMT-04:00" name="afterClass" finished-at="2025-04-02T02:28:40 GMT-04:00" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.testscenarios.AutoTestDataGenreate -->
+      </class> <!-- com.testscenarios.TestCase1_Register_user -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
