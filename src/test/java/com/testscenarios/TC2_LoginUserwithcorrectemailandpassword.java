@@ -29,6 +29,7 @@ public class TC2_LoginUserwithcorrectemailandpassword extends Commonfunctions {
 	@Test
 	public void loginUserwithcorrectemailandpassword() throws Exception {
 
+
 		launchChromeBrowser();
 		getURL("AE_URL");
 		verifyWebElement(loc.AE_Homepage_Click);
@@ -38,7 +39,17 @@ public class TC2_LoginUserwithcorrectemailandpassword extends Commonfunctions {
 			clickByAnyLocator(loc.AE_Consent_Click);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+
+		launchChromeBrowser();
+		getURL("AE_URL");
+		verifyWebElement(loc.AE_Homepage_Click);
+		implicitWait(30);
+		
+		try {
+			clickByAnyLocator(loc.AE_Consent_Click);
+		} catch (Exception e1) {
+ https://github.com/seenu4selenium/658Batch_HybridFrmaework
+			e1.printStackTrace();
 		}
 		
 		clickByAnyLocator(loc.AE_Signuplogin_Click);
@@ -49,13 +60,17 @@ public class TC2_LoginUserwithcorrectemailandpassword extends Commonfunctions {
 		verifyWebElement(loc.AE_LoggedinButton_text);
 		clickByAnyLocator(loc.AE_Deleteaccount_Click);
 		verifyWebElement(loc.AE_accountdeleted_Deleted);
+		}
 	}
 
-	// take a screenshot
 	@AfterTest
 	public void screenshotAfterAtTestAnnotation() throws Exception {
 
+
 		takescreenshot();
 
+
+		takescreenshot();
+       https://github.com/seenu4selenium/658Batch_HybridFrmaework
 	}
 }
