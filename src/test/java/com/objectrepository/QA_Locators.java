@@ -31,5 +31,20 @@ public class QA_Locators {
 	 public final By TC3_VerifyEmailMessage=By.xpath("//*[@id=\"form\"]/div/div/div[1]/div[1]/form/p");
 	 public final By TC3_ErrorMessage = By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/p");
 	 
+	 // CWL locators
+	// 4. Prepare the xpath for All hyperlinks
+	 //5. Prepare the xpath for All dropdowns
+	// 6. Prepare the xpath for All buttons
+	 public final By allEditboxes = By.xpath("//*[@type = 'text']");
+	 public final By allCheckboxes = By.xpath("//*[@type = 'checkbox']");
+	 public final By allRadiobuttons = By.xpath("//*[@type='radio']");
+	 public final By allHyperlinks = By.xpath("//a");
+	 public final By allDropdowns = By.xpath("//select");
+	 public final By allButtons = By.xpath("//button");
+	 public final By allPasswordEditBoxes = By.xpath("//*[@type='password']");
+	 
+	 
+	 
+	 
 }
 

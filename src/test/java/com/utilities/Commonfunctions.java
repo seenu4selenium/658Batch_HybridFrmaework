@@ -37,7 +37,14 @@ public class Commonfunctions {
 	public QA_Locators loc = new QA_Locators();
 	public Properties p = new Properties();
 	public JavascriptExecutor executor = (JavascriptExecutor) driver;
-
+	public By allEditboxes = By.xpath("//*[@type = 'text']");
+	 public By allCheckboxes = By.xpath("//*[@type = 'checkbox']");
+	 public  By allRadiobuttons = By.xpath("//*[@type='radio']");
+	 public By allHyperlinks = By.xpath("//a");
+	public By allDropdowns = By.xpath("//select");
+	 public By allButtons = By.xpath("//button");
+	public  By allPasswordEditBoxes = By.xpath("//*[@type='password']");
+	 
 	// Launch chrome browser
 	public void launchChromeBrowser() {
 		driver = new ChromeDriver();
@@ -335,6 +342,21 @@ public class Commonfunctions {
 		} else {
 			System.out.println(tC3_Home + " is not displayed on screen,please check the locator ");
 		}
-
+		}
+ public void GetAllWebementsOnTheCurrentPage() {
+	  By allEditboxes = By.xpath("//*[@type = 'text']");
+	  By allCheckboxes = By.xpath("//*[@type = 'checkbox']");
+	  By allRadiobuttons = By.xpath("//*[@type='radio']");
+	  By allHyperlinks = By.xpath("//a");
+	 By allDropdowns = By.xpath("//select");
+	  By allButtons = By.xpath("//button");
+	  By allPasswordEditBoxes = By.xpath("//*[@type='password']");
+	 
+	 
+	 
+	 
+ 
+ 
+ 
 	}
 }
